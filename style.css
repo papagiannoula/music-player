@@ -1,11 +1,9 @@
 body {
-    background-color: rgb(232, 170, 249);
-    
-    /* Smoothly transition the background color */
+    /*transition the background color */
     transition: background-color .5s;
     }
     
-    /* Using flex with the column direction to
+    /*flex with the column direction to
     align items in a vertical direction */
     .player {
     height: 95vh;
@@ -33,7 +31,7 @@ body {
     border-radius: 15%;
     }
     
-    /* Changing the font sizes to suitable ones */
+    /* Changing the font sizes */
     .now-playing {
     font-size: 1rem;
     }
@@ -46,7 +44,7 @@ body {
     font-size: 1.5rem;
     }
     
-    /* Using flex with the row direction to
+    /*flex with the row direction to
     align items in a horizontal direction */
     .buttons {
     display: flex;

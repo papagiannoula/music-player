@@ -40,16 +40,40 @@ let track_list = [
     path: "conqueror_ia.mp3",
   },
   {
-    name: "Sand Planet",
+    name: "World is Mine",
     artist: "Hatsune Miku",
     image: "https://i.pinimg.com/564x/8c/f0/5f/8cf05f0e7f9f67ce6d5631f4d395c08e.jpg",
-    path: "sandplanet_hm.mp3",
+    path: "worldismine_hm.mp3",
+  },
+  {
+    name: "Dancing Samurai",
+    artist: "Camui Gakpo",
+    image: "https://i.pinimg.com/564x/69/3e/11/693e117ca5692156c80ce72f82c0b540.jpg",
+    path: "dancingsamurai_gakpo.mp3",
+  },
+  {
+    name: "Electric Angel",
+    artist: "Kagamine Rin & Len",
+    image: "https://i.pinimg.com/564x/e4/1c/3e/e41c3e28d91dc5f0d48438ca95562772.jpg",
+    path: "electricangel_kagamine.mp3",
+  },
+  {
+    name: "Dreaming Chu Chu",
+    artist: "Megurine Luka",
+    image: "https://i.pinimg.com/564x/39/55/82/395582bccf4dfce5450b97d1ff4d6bed.jpg",
+    path: "dreamingchuchu_luka.mp3",
+  },
+  {
+    name: "Lemon",
+    artist: "Megurine Luka X Camui Gakpo",
+    image: "https://i.pinimg.com/564x/94/1f/64/941f64e5e56fca9835c7e765a535aabb.jpg",
+    path: "lemon.mp3",
   },
 ];
 
+// random background
 function random_bg_color() {
-
-  // Get a number between 64 to 256 (for getting lighter colors)
+  // for lighter colors
   let red = Math.floor(Math.random() * 256) + 64;
   let green = Math.floor(Math.random() * 256) + 64;
   let blue = Math.floor(Math.random() * 256) + 64;
@@ -57,7 +81,7 @@ function random_bg_color() {
   // Construct a color withe the given values
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
-  // Set the background to that color
+  //  Set the background to that color
   document.body.style.background = bgColor;
 }
 
